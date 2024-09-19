@@ -1,0 +1,49 @@
+# Laravel specific files
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.env.backup
+/.env.local
+/.env.development
+/.env.testing
+/.env.production
+/storage/debugbar
+/homestead.yaml
+/homestead.json
+/nova-components
+
+# Ignore compiled view files and caches
+/storage/framework/*
+/storage/logs/*
+!storage/framework/.gitignore
+!storage/logs/.gitignore
+
+# Ignore Laravel Mix and NPM related files
+/public/hot
+/public/mix-manifest.json
+/public/css/*.css
+/public/js/*.js
+/public/js/*.map
+/public/css/*.map
+/npm-debug.log
+/yarn-error.log
+
+# Ignore IDE and OS-related files
+/.idea
+/.vscode
+/.phpunit.result.cache
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+*.bak
+
+# Ignore Composer lock file (optional, can be useful to include in some cases)
+/composer.lock
+
+# Ignore files that shouldn't be in Git
+*.env
+*.key
